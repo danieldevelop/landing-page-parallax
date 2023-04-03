@@ -1,3 +1,9 @@
+function mostrar_menu() {
+    document.querySelector(".menu").classList.toggle("mostrar_menu")
+}
+
+document.getElementById("icon_menu").addEventListener("click", mostrar_menu);
+
 window.onscroll = function () {
     let position = window.pageYOffset || document.documentElement.scrollTop;
     let icon_heart = document.getElementById("icon_heart");
