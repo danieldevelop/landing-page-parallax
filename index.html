@@ -1,10 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page | Parallax</title>
+    <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
+
+<!--    CSS Items -->
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+
+    <header>
+        <div class="container__header">
+<!--            Contenedor para el logo-->
+            <div class="logo">
+                <img src="media/logo-danieldevelop.svg" alt="logo danieldevelop">
+            </div>
+
+<!--            contenedor para el menu de navegación-->
+            <div class="menu">
+                <nav class="ul">
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Soluciones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Compañia</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </nav>
+            </div>
+
+<!--            contenedor para el boton registrar-->
+            <div class="header__register">
+                <input type="button" class="btn__header-register" value="Registrarse">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="cover">
+            <div class="text__information-cover">
+                <h1>Haz historia. No se limite a informar sobre ello.</h1>
+                <p>
+                    Vaya más allá de informar sobre datos históricos. Utilize la inteligencia procesable de cada
+                    evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
+                    tiempo real. A escala
+                </p>
+
+<!--                contenedor para el buttons del cover u hero-->
+                <div class="buttons__cover">
+                    <input type="button" value="Registrarse" class="btn__register-cover">
+                    <input type="button" value="Leer más" class="btn__readMore-cover">
+                </div>
+            </div>
+            
+            <div class="media__cover">
+                <video src="media/animacion_cover.webm" autoplay playsinline loop muted preload="auto"></video>
+            </div>
+        </div>
+
+<!--        contenedor para el banner-->
+        <div class="container__banner">
+            <div class="banner">
+                <div class="banner__icon-heart">
+                    <img src="media/heart_notify.png" alt="heart notify">
+                </div>
+                
+                <div class="banner__icon-fire">
+                    <img src="media/fire-dynamic-color.png" alt="fire dynamic">
+                </div>
+
+                <div class="banner__text">
+                    <h2>
+                        La pila moderna de inteligencia de datos en la nube para su negocio
+                        de misión crítica.
+                    </h2>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </main>
 
 </body>
 </html>
